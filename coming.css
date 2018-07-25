@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'Love Ya Like A Sister';
-  font-style: normal;
-  font-weight: 400;
-  src: url(./sista.tff);
-}
+
 header,
 header .header-content {
     position: relative;
