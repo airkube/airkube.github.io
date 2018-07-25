@@ -57,10 +57,14 @@ color : grey;
 .right-icon {
 padding-top : 25px;
 }
-@media (min-width: 768px) {
+@media (max-width: 767px) {
     header {
-        min-height: 100%
+
+		background-size: cover;
     }
+	.back-header {
+		padding: 50px 15px;
+	}
     
   
 
