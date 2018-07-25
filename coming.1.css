@@ -1,0 +1,42 @@
+
+html, body {
+  height: 100%;
+  background-size: cover;
+	background-position:center top;
+    background-image: url(coming-2.jpg);
+    background-repeat: no-repeat;
+    color: black;
+}
+.container, .row.justify-content-center.align-items-center {
+  height: 100%;
+  min-height: 100%;
+  
+}
+
+.time{
+    min-height: 100px; 
+padding-top:4%;
+    /* Center and scale the image nicely */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(time_p.png);
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+.headerlpa {
+    height: 20%;
+}
+.centerlpa {
+    height: 60%;
+}
+.footerlpa {
+    height: 20%;
+}
+.total {
+    min-height: 100%;
+    height:auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+}
