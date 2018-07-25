@@ -1,0 +1,71 @@
+
+header,
+header .header-content {
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+body,
+html {
+    height: 100%;
+    width: 100%
+}
+body {
+    font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
+    webkit-tap-highlight-color: #222;
+	 /* Add a font */
+    font-family: "Love Ya Like A Sister", Courier, monospace;
+    /* Set the font-size to 25 pixels */
+    font-size: 40px;
+}
+
+header {
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    background-image: url(coming_p.jpg);
+    color: #fff
+}
+.time{
+    min-height: 100px; 
+padding-top:4%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(time_p.png);
+   color: black;
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+header .header-content {
+    padding: 150px 15px;
+}
+header .header-content .header-content-inner h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000000;
+    margin-bottom: 0;
+    font-size: 30px
+}
+
+
+@media (min-width: 768px) {
+    header {
+        min-height: 100%
+    }
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 10;
+    }
+  
+
+}
