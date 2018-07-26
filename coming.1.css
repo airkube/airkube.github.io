@@ -11,7 +11,7 @@ html, body {
 	 /* Add a font */
     font-family: "Love Ya Like A Sister", Courier, monospace;
     /* Set the font-size to 25 pixels */
-    font-size: 25px;
+    font-size: 20px;
 }
 .total {
   height: 100%;
@@ -31,15 +31,44 @@ padding-top:4%;
     background-size: contain;
     background-image: url(time_p.png);
    color: black;
-   font-size: 1.8vw;
+   font-size: 20px;
    
    
 }
 .test{
 background-color: rgba(255,255,255, 0.5);
 }
-.headerlpa {
-    height: 74%;
+.imgwidth {
+   padding-top:30px;
+}
+.right-icon {
+padding-top : 25px;
+}
+.social-icons {
+  
+  margin-bottom: 2rem;
+  width: 100%;
+  z-index: 2;
+}
+
+.social-icons ul {
+  width: 100%;
+}
+
+.social-icons ul > li {
+  margin-top: 1rem;
+  
+}
+
+.social-icons ul > li > a {
+  display: block;
+  color: white;
+  background-color: rgba(0, 46, 102, 0.5);
+  border-radius: 100%;
+  font-size: 2rem;
+  line-height: 4rem;
+  height: 4rem;
+  width: 4rem;
 }
 @media (max-width: 768px) {
 	html, body {
@@ -55,5 +84,8 @@ background-color: rgba(255,255,255, 0.5);
     font-family: "Love Ya Like A Sister", Courier, monospace;
     /* Set the font-size to 25 pixels */
     font-size: 15px;
+	}
+	
 }
+
 
