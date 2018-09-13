@@ -25,7 +25,9 @@ hr.light {
 hr.yel {
   border-color: yellow;
 }
-
+h1 {
+	font-size: 2rem;
+}
 a {
   color:black;
   -webkit-transition: all 0.2s;
