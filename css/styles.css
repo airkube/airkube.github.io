@@ -112,6 +112,13 @@ b.light-color{ color: #444; }
 
 .left-section .logo img{ height: 100%; width: auto; } 
 
+.maps{height: 15px; vertical-align: top;}
+
+.maps img{ height: 100%; width: auto; } 
+
+.icons-custom{height: 35px; }
+
+.icons-custom img{ height: 100%; width: auto; } 
 
 .left-section .main-content{ padding: 60px 40px 40px 0; }
 
