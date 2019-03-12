@@ -120,6 +120,10 @@ b.light-color{ color: #444; }
 
 .icons-custom img{ height: 100%; width: auto; } 
 
+.icons-custom-height{height: 42px; }
+
+.icons-custom-height img{ height: 100%; width: auto; } 
+
 .left-section .main-content{ padding: 60px 40px 40px 0; }
 
 .main-content .title{ margin-bottom: 15px; }
@@ -146,7 +150,7 @@ b.light-color{ color: #444; }
 
 .left-section .footer-icons > li > a{ display: inline-block; font-size: 3em; padding: 0 0px; }
 
-.left-section .footer-icons > li{ margin-right: 20px; }
+.left-section .footer-icons > li{ margin-right: 10px; }
 
 
 
