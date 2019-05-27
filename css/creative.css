@@ -291,4 +291,24 @@ header.masthead p {
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
+.text-moy{
+  font-size: 1.5rem;
+}
+
+.moncercle{
+  background:#bfd70e;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  border:2px solid #679403; 
+}
+.white-back{
+  background-color: #fff;
+}
+.transp-back{
+  background-color:transparent;
+}
+.jumbotron-padlight {
+  padding: 3rem 0rem;
+}
 
