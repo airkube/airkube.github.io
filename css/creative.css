@@ -6,17 +6,17 @@ html {
 }
 
 body {
-  font-family: Merriweather, 'Helvetica Neue', Arial, sans-serif;
-    webkit-tap-highlight-color: #222;
-	 /* Add a font */
-    font-family: "Love Ya Like A Sister", Courier, monospace;
-    color: black;
+  font-family: 'Poppins', sans-serif;
+  color: black;
 }
 
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: white;
+}
+.hr-black {
+  border-color: black;
 }
 
 hr.light {
@@ -26,7 +26,10 @@ hr.yel {
   border-color: yellow;
 }
 h1 {
-	font-size: 2rem;
+	font-size: 1.5rem;
+}
+h2 {
+	font-size: 1rem;
 }
 a {
   color:black;
@@ -44,7 +47,6 @@ a:hover {
 }
 .my-header{
   max-width: 50%;
-  background-color: rgba(255,255,255, 0.9);
 }
 .margin-small{
   margin-left:4%;
@@ -71,6 +73,7 @@ a:hover {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  font-weight: normal;
 }
 
 .green-color{
@@ -123,17 +126,16 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: "Love Ya Like A Sister", Courier, monospace;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
 }
 
 #mainNav .navbar-brand {
-  font-weight: 700;
-  text-transform: uppercase;
+  font-weight: 400;
   color:  rgb(32, 25, 80);
-  font-family: "Love Ya Like A Sister", Courier, monospace;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -142,9 +144,8 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 400;
   color: #212529;
 }
 
@@ -209,7 +210,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header-n.jpg");
+  background-color: #113c4d;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -223,7 +224,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header.masthead p {
@@ -254,12 +255,15 @@ header.masthead p {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
 .service-box {
   max-width: 400px;
+}
+.service-box-large {
+  max-width: 600px;
 }
 .text-primary {
   /*color: rgb(32, 25, 80) !important;*/
@@ -271,7 +275,6 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: "Love Ya Like A Sister", Courier, monospace;
 }
 
 .btn-xl {
@@ -310,5 +313,14 @@ header.masthead p {
 }
 .jumbotron-padlight {
   padding: 3rem 0rem;
+}
+.jumbotron-padverylight {
+  padding: 1rem 0rem;
+}
+.img-fluid-home{
+  max-width: 60%;
+}
+.bg-primary-dark {
+  background-color: #113c4d;
 }
 
